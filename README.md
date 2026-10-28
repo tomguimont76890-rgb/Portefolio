@@ -23,3 +23,8 @@ La page principale met en avant quatre projets et évoque brièvement le parcour
 Les descriptions s’appuient sur les projets locaux dans `../autre/projets finis`, `../forum` (branche `commentaire`) et `../blabla`. Les illustrations de Groupie Tracker, ASCII Art Web et Forum sont conceptuelles et explicitement identifiées. Aucun CV, adresse email ou coordonnées personnelles supplémentaires n’ont été inventés.
 
 Le portfolio est autonome : il n’exécute pas les quatre applications et n’appelle pas leurs API. Il ne nécessite pas de connexion Internet ; le lien du profil Git est externe. Aucune publication n’a été effectuée.
+
+
+## Publication sur GitHub Pages
+
+Le workflow `.github/workflows/pages.yml` publie le dossier `dist` à chaque push sur `main` sur GitHub. Dans le dépôt GitHub, ouvrir **Settings → Pages**, puis sélectionner **GitHub Actions** comme source. Le déploiement et son URL sont ensuite visibles dans l’onglet **Actions**.
